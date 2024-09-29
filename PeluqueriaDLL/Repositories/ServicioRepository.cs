@@ -47,6 +47,11 @@ namespace PeluqueriaDLL.Repositories
 
         public bool Save(TServicio servicio)
         {
+            if(servicio.Id == 0)
+            {
+                var maxId = _context.TServicios.Max(servicio => servicio.Id);
+                servicio.Id = maxId + 1;
+            }
             _context.TServicios.Add(servicio);
             return _context.SaveChanges() > 0;
         }

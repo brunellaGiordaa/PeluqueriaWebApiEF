@@ -44,7 +44,7 @@ namespace PeluqueriaWebApiEF.Controllers
         {
             try
             {
-                if (validarPost(servicio))
+                if (validarDatos(servicio))
                 {
                     return Ok(_repository.Save(servicio));
                 }
@@ -61,10 +61,26 @@ namespace PeluqueriaWebApiEF.Controllers
             }
         }
 
-        private bool validarPost(TServicio servicio)
+        private bool validarDatos(TServicio servicio)
         {
-            return !string.IsNullOrEmpty(servicio.Nombre);
-                //&& int.TryParse(servicio.Costo, );
+            if (string.IsNullOrEmpty(servicio.Nombre))
+            {
+                return false; 
+            }
+            if (!decimal.TryParse(servicio.Costo.ToString(), out decimal costo) || costo < 0)
+            {
+                return false; 
+            }
+            if (servicio.EnPromocion.ToUpper() != "S" && servicio.EnPromocion.ToUpper() != "N")
+            {
+                return false; 
+            }
+            if (servicio.EstaActivo.ToUpper() != "S" && servicio.EstaActivo.ToUpper() != "N")
+            {
+                return false;
+            }
+
+            return true;
         }
 
         // PUT api/<ServiciosController>/5
@@ -73,7 +89,14 @@ namespace PeluqueriaWebApiEF.Controllers
         {
             try
             {
-                return Ok(_repository.Update(servicio, id));
+                if (validarDatos(servicio))
+                {
+                    return Ok(_repository.Update(servicio, id));
+                }
+                else
+                {
+                    return BadRequest("Datos incorrectos o incompletos.");
+                }
             }
             catch (Exception)
             {

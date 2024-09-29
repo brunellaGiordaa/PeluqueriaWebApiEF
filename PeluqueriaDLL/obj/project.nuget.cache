@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CdeJDCdxi9v1KA2/VFHNz5I0br+B6Kahh2vtTeBrOcNXNjLtwhDZH1KmahydHDiVqNhgJ5TgQmd3xnu0Vr+rmQ==",
+  "dgSpecHash": "i8o2h1FqZv3i3JezTpM0/n1s6gom4+QS8l0enihYr6065pyMaPybMYpEriN+Fy86WibKYFT2V8szfEGwCKdqeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApiEF\\PeluqueriaDLL\\PeluqueriaDLL.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaDLL\\PeluqueriaDLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

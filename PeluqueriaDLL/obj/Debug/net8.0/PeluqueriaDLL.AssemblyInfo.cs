@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeluqueriaDLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd16698b9c1594adc6450c97408050420648864")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+929f295410c1af697de3512355404334ec8cb214")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeluqueriaDLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeluqueriaDLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

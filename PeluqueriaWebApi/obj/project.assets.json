@@ -3189,11 +3189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApiEF\\PeluqueriaWebApi\\PeluqueriaWebApiEF.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApi\\PeluqueriaWebApiEF.csproj",
       "projectName": "PeluqueriaWebApiEF",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApiEF\\PeluqueriaWebApi\\PeluqueriaWebApiEF.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApi\\PeluqueriaWebApiEF.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApiEF\\PeluqueriaWebApi\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3210,8 +3210,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApiEF\\PeluqueriaDLL\\PeluqueriaDLL.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaWebApiEF\\PeluqueriaDLL\\PeluqueriaDLL.csproj"
+            "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaDLL\\PeluqueriaDLL.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\Repositorio Servicios\\PeluqueriaDLL\\PeluqueriaDLL.csproj"
             }
           }
         }
