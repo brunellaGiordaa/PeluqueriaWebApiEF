@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeluqueriaWebApiEF", "PeluqueriaWebApiEF.csproj", "{7A1A6CD6-2770-424D-8844-D3DD8A7ABF90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeluqueriaWebApiEF", "PeluqueriaWebApiEF.csproj", "{7A1A6CD6-2770-424D-8844-D3DD8A7ABF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeluqueriaDLL", "..\PeluqueriaDLL\PeluqueriaDLL.csproj", "{FAE6A890-331E-4926-9ECC-212053B8F234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7A1A6CD6-2770-424D-8844-D3DD8A7ABF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A1A6CD6-2770-424D-8844-D3DD8A7ABF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A1A6CD6-2770-424D-8844-D3DD8A7ABF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE6A890-331E-4926-9ECC-212053B8F234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE6A890-331E-4926-9ECC-212053B8F234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE6A890-331E-4926-9ECC-212053B8F234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE6A890-331E-4926-9ECC-212053B8F234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

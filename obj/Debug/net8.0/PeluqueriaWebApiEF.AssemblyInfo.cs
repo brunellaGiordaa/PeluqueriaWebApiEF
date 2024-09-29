@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeluqueriaWebApiEF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6152706aca698b317dce6bc1e91422b1c301c445")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+398e5c05a270974edac199725dd33ae9a32680bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeluqueriaWebApiEF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeluqueriaWebApiEF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
