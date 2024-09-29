@@ -1,0 +1,29 @@
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.AssemblyInfo.cs
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.deps.json
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.runtimeconfig.json
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.dll
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.pdb
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.dll
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\refint\PeluqueriaDLL.dll
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.pdb
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.genruntimeconfig.cache
+C:\Users\Admin\Documents\TUP\segundo cuatrimestre\Programación\unidad 3\PeluqueriaDLL\obj\Debug\net8.0\ref\PeluqueriaDLL.dll
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.deps.json
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.runtimeconfig.json
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.dll
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\bin\Debug\net8.0\PeluqueriaDLL.pdb
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.sourcelink.json
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.dll
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\refint\PeluqueriaDLL.dll
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.pdb
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\PeluqueriaDLL.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Repositorio Servicios\PeluqueriaWebApiEF\PeluqueriaDLL\obj\Debug\net8.0\ref\PeluqueriaDLL.dll
