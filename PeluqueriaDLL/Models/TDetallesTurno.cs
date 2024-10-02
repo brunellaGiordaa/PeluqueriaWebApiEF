@@ -2,9 +2,8 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
-namespace PeluqueriaDLL.Data.Models;
+namespace PeluqueriaDLL.Models;
 
 public partial class TDetallesTurno
 {
@@ -14,9 +13,7 @@ public partial class TDetallesTurno
 
     public string Observaciones { get; set; }
 
-    [JsonIgnore]
-    public virtual TTurno IdTurnoNavigation { get; set; }
-
-    [JsonIgnore]
     public virtual TServicio IdServicioNavigation { get; set; }
+
+    public virtual TTurno IdTurnoNavigation { get; set; }
 }

@@ -16,6 +16,20 @@ namespace PeluqueriaDLL.Repositories
         {
             _context = context;
         }
+
+        public bool Create(TServicio servicio)
+        {
+            if(servicio.Id == 0 || _context.TServicios.Any(serv => serv.Id == servicio.Id))
+            {
+                var nuevoId = _context.TServicios.Max(serv => serv.Id) + 1;
+
+                servicio.Id = nuevoId;
+            }
+            _context.TServicios.Add(servicio);
+
+            return _context.SaveChanges() == 1;
+        }
+
         public bool Delete(int id)
         {
             var servicio = _context.TServicios.Find(id);

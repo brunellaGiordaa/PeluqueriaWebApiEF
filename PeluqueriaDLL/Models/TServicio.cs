@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace PeluqueriaDLL.Data.Models;
+namespace PeluqueriaDLL.Models;
 
 public partial class TServicio
 {
@@ -17,5 +17,5 @@ public partial class TServicio
 
     public string EstaActivo { get; set; }
 
-    public virtual ICollection<TDetallesTurno> TDetallesTurnos { get; set; }
+    public virtual ICollection<TDetallesTurno> TDetallesTurnos { get; set; } = new List<TDetallesTurno>();
 }

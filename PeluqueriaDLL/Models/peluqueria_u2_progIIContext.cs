@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace PeluqueriaDLL.Data.Models;
+namespace PeluqueriaDLL.Models;
 
-public partial class PeluqueriaDbContext : DbContext
+public partial class peluqueria_u2_progIIContext : DbContext
 {
-    public PeluqueriaDbContext(DbContextOptions<PeluqueriaDbContext> options)
+    public peluqueria_u2_progIIContext(DbContextOptions<peluqueria_u2_progIIContext> options)
         : base(options)
     {
     }
@@ -33,13 +33,13 @@ public partial class PeluqueriaDbContext : DbContext
                 .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("observaciones");
-            entity.HasOne(d => d.IdServicioNavigation)
-               .WithMany(p => p.TDetallesTurnos) 
-               .HasForeignKey(d => d.IdServicio)
-               .OnDelete(DeleteBehavior.ClientSetNull)
-               .HasConstraintName("FK_T_DETALLES_TURNO_T_SERVICIOS");
-            entity.HasOne(d => d.IdTurnoNavigation)
-                .WithMany(p => p.TDetallesTurnos) 
+
+            entity.HasOne(d => d.IdServicioNavigation).WithMany(p => p.TDetallesTurnos)
+                .HasForeignKey(d => d.IdServicio)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_T_DETALLES_TURNO_T_SERVICIOS");
+
+            entity.HasOne(d => d.IdTurnoNavigation).WithMany(p => p.TDetallesTurnos)
                 .HasForeignKey(d => d.IdTurno)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_T_DETALLES_TURNO_T_TURNOS");
@@ -78,6 +78,10 @@ public partial class PeluqueriaDbContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("cliente");
+            entity.Property(e => e.EstaActivo)
+                .HasMaxLength(1)
+                .IsUnicode(false)
+                .HasColumnName("estaActivo");
             entity.Property(e => e.Fecha)
                 .HasMaxLength(10)
                 .IsUnicode(false)
@@ -86,11 +90,6 @@ public partial class PeluqueriaDbContext : DbContext
                 .HasMaxLength(5)
                 .IsUnicode(false)
                 .HasColumnName("hora");
-            entity.Property(e => e.EstaActivo)
-                .HasMaxLength(1)
-                .IsUnicode(false)
-                .HasColumnName("estaActivo");
-            entity.Navigation(e => e.TDetallesTurnos).AutoInclude();
         });
 
         OnModelCreatingPartial(modelBuilder);

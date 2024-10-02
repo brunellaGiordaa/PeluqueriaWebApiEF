@@ -17,6 +17,7 @@ options
 .GetConnectionString("DefaultConnection")));//Inyecta la conexion con un scoped.
 
 builder.Services.AddScoped<IServicioRepository, ServicioRepository>();
+builder.Services.AddScoped<ITurnoRepository,TurnoRepository>();
 
 var app = builder.Build();
 

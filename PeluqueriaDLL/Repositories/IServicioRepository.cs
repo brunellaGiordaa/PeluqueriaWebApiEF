@@ -15,5 +15,6 @@ namespace PeluqueriaDLL.Repositories
         bool Update(TServicio servicio, int id);
         bool Delete(int id);
         bool Save(TServicio servicio);
+        bool Create(TServicio servicio);
     }
 }
